@@ -22,12 +22,12 @@ class ProfilePage extends StatelessWidget {
   ProfilePage({super.key});
 
   final List<String> imageUrls = [
-    'https://via.placeholder.com/150',
-    'https://via.placeholder.com/150',
-    'https://via.placeholder.com/150',
-    'https://via.placeholder.com/150',
-    'https://via.placeholder.com/150',
-    'https://via.placeholder.com/150',
+    'https://images.pexels.com/photos/51383/photo-camera-subject-photographer-51383.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500',
+    'https://images.pexels.com/photos/51383/photo-camera-subject-photographer-51383.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500',
+    'https://images.pexels.com/photos/51383/photo-camera-subject-photographer-51383.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500',
+    'https://images.pexels.com/photos/51383/photo-camera-subject-photographer-51383.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500',
+    'https://images.pexels.com/photos/51383/photo-camera-subject-photographer-51383.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500',
+    'https://images.pexels.com/photos/51383/photo-camera-subject-photographer-51383.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500',
   ];
 
   @override
@@ -57,10 +57,8 @@ class ProfilePage extends StatelessWidget {
               ),
               child: ClipOval(
                 child: Image.network(
-                  'https://via.placeholder.com/150', // Replace with your image URL
-                  fit: BoxFit.cover, // Adjust the image fit as needed
-                  width: 150.0,
-                  height: 150.0,
+                  'https://images.pexels.com/photos/51383/photo-camera-subject-photographer-51383.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500', // Replace with your image URL
+                  fit: BoxFit.cover,
                 ),
               ),
             ),
@@ -116,10 +114,8 @@ class ProfilePage extends StatelessWidget {
             ),
             child: ClipOval(
               child: Image.network(
-                'https://via.placeholder.com/150', // Replace with your image URL
+                'https://images.pexels.com/photos/51383/photo-camera-subject-photographer-51383.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500', // Replace with your image URL
                 fit: BoxFit.cover, // Adjust the image fit as needed
-                width: 350.0,
-                height: 350.0,
               ),
             ),
           ),
